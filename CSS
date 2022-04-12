@@ -1,0 +1,15 @@
+.hamburger {
+    position: absolute;
+    top: 20px;
+    right: 30px; // позиционируем наш гамбурер на сайте
+    height: 21px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+    span {
+        display: block;
+        width: 30px;
+        height: 3px;
+        background: #151812;
+}
